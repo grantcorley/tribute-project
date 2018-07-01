@@ -6,9 +6,14 @@ body {
 }
 
 main{
-    max-width: 960px;
+    max-width: 900px;
     margin: auto;
     margin-bottom: 6em;
+    display:block;
+}
+
+article{
+    margin-bottom:6em;
 }
 
 h1, h2, h3{
@@ -65,3 +70,17 @@ figure img{
     font-style:italic;
 
  }
+
+ aside{
+     background-color: darkorange;
+     padding: 1em 2em 4em;
+}
+
+aside h2{
+    color: white;
+    font-size:3em;
+}
+
+aside h3{
+    color: black;
+}
