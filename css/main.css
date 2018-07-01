@@ -3,6 +3,7 @@ body {
    font-family: 'Roboto', sans-serif;
  font-size:1em;
    background-color: floralwhite;
+   margin:0;
 }
 
 main{
@@ -25,9 +26,19 @@ h1{
     font-size:5em;
 }
 
+p{
+    line-height: 1.35em;
+}
+
 blockquote{
     font-family: 'Domine', serif;
-    font-size:2.4em;  
+    font-size:2.4em; 
+    
+}
+
+#article-main-content blockquote{
+    border-top: 2px dotted orangered; 
+    border-bottom:2px dotted orangered;
 }
 
 /*if the quote needs to be cited...*/
@@ -47,8 +58,24 @@ img{
     display:block;
 }
 
+#article-main-content{
+    /* border:1px solid red; */
+    max-width:500px;
+    margin:auto;
+    /* display:block; */
+
+  
 
 
+}
+
+
+header{
+    background-color:orangered;
+    width:100%;
+    min-height: .5em;
+    margin-bottom:1em;
+}
 
 footer{
     background-color:orangered;
@@ -74,6 +101,7 @@ figure img{
  aside{
      background-color: darkorange;
      padding: 1em 2em 4em;
+     color:black;
 }
 
 aside h2{
@@ -84,3 +112,5 @@ aside h2{
 aside h3{
     color: black;
 }
+
+
