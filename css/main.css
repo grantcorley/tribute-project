@@ -30,6 +30,24 @@ p{
     line-height: 1.35em;
 }
 
+img{
+    margin:auto;
+    display:block;
+}
+
+.main-img {
+    margin: auto;
+    width: 75%;
+    display:block;
+}
+
+#article-main-content{
+    /* border:1px solid red; */
+    max-width:500px;
+    margin:auto;
+    
+}
+
 blockquote{
     font-family: 'Domine', serif;
     font-size:2.4em; 
@@ -47,29 +65,8 @@ blockquote{
     font-size: 1rem;
 }
 
-img{
-    margin:auto;
-    display:block;
-}
 
-.main-img {
-    margin: auto;
-    width: 75%;
-    display:block;
-}
-
-#article-main-content{
-    /* border:1px solid red; */
-    max-width:500px;
-    margin:auto;
-    /* display:block; */
-
-  
-
-
-}
-
-
+/* header n footer */
 header{
     background-color:orangered;
     width:100%;
@@ -83,6 +80,8 @@ footer{
     min-height: 3em;
 }
 
+
+/*figure*/
 figure{
     border:0px dotted red;
     text-align:center;
@@ -93,12 +92,12 @@ figure img{
 }
 
  figcaption{
-
     font-style:italic;
-
  }
 
- aside{
+
+/*side bar (criticisms)*/ 
+aside{
      background-color: darkorange;
      padding: 1em 2em 4em;
      color:black;
